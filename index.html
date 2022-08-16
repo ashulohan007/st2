@@ -3,16 +3,24 @@
   
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style2.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A personal portfolio webpage created for the FreeCodeCamp's Responsive Web Design Certification.">
-  <title>Personal Portfolio</title>
+  <title>Person managment system</title>
 </head>
 
 <body>
 
 <nav id="navbar" class="nav">
   <ul>
+    <li>
+      <a href="#home">
+        <span class="code">&lt;</span>
+        Home
+        <span class="code">&#47;&gt;</span>
+      </a>
+    </li>
     <li>
       <a href="#about">
         <span class="code">&lt;</span>
@@ -22,15 +30,15 @@
     </li>
     <li>
 
-      <a href="#projects">
+      <a href="">
         <span class="code">&lt;</span>
-        Projects
+        application
         <span class="code">&#47;&gt;</span>
       </a>
 
     </li>
     <li>
-      <a href="#contact">
+      <a href="contact.html.html">
         <span class="code">&lt;</span>
         Contact
         <span class="code">&#47;&gt;</span>
@@ -49,7 +57,13 @@
   </div>
 </section> -->
 
-<section id="welcome-section">
+<!-- <section id="home"> <p>
+    <span class="code">&lt;</span>
+    <span class="code">&#47;&gt;</span>
+    with
+    <span class="heart"></span>
+    by Akshit
+  </p>
   <div>
     <h1>Hello<span>,</span></h1>
     <p id="subheading">I'm <span>Akshit</span></p>
@@ -58,27 +72,41 @@
     <img class="welcome-img" id="desktop-only" src="images/code-1.svg" alt="A code snippet in C language">
     <img class="welcome-img" id="mobile-only" src="images/code-2.svg" alt="A code snippet in C language">
   </div>
-</section>
+<!-- </section> -->
 
 <section id="about">
-  <h2>My Story:</h2>
+  <h2>person managment application</h2>
   <div id="about-container">
     <div id="my-story">
-      <p>I'm an  Computer science Engineering student with notable experience in computer and programming. I am also cyber security Learn Student Amabasador interested in all aspects of technology and especially in  network Engineering, Artificial Intelligence and Internet of Things. I'm passionate about Arts & Design and I love creating beautiful things. I really enjoy learning new things and I'm always open to new ideas and projects.</p>
+      <p>this is a application used to get person details. it is api based website . this website helps us to fetch person data with the help of name or any other parameter value.</p>
     </div>
     <div id="interests-list">
-      <h3>Interests</h3>
+      <h3>features</h3>
       <ul>
-        <li>Programming</li>
-        <li>network Engineering</li>
-        <li>App & Web Development</li>
-        <li>cyber security </li>
+        <li>fast data retrival</li>
+        <li>up to date</li>
+        <li>fully secured</li>
+        <li>live tracking</li>
       </ul>
     </div>
   </div>
 </section>
 
-<section id="projects">
+<section>
+  <div style="margin: auto;">
+    <h3 style="margin-left:50px;">
+      Click Below button
+    </h3>
+
+    <button style="margin-top:14px;background-color:rgb(10, 235, 235);margin-left:50px;width:80px;height:50px;" id="click" class="click">Click Here</button>
+  </div>
+
+  <div id="display">
+
+  </div>
+</section>
+
+<!-- <section id="projects">
   <h2>My Work:</h2>
   <p>Here's a list of works</p>
 
@@ -105,7 +133,7 @@
         </h3>
         <p>A survey form UI for an online course, built with HTML and CSS</p>
       </div>
-    </div>
+    </div> -->
 
  
     <!-- <div class="card">
@@ -120,7 +148,7 @@
       </div>
     </div> -->
 
-    <div class="card">
+    <!-- <div class="card">
       <div class="project-img">
         <img src="images/personaPortfolio.jpg" alt="personal portfolio">
       </div>
@@ -134,39 +162,66 @@
 
   </div>
 
-</section>
+</section> -->
 
-<section id="contact">
-  <h2>Let's work together</h2>
-  <p>Find me on</p>
-  <div class="contact-links">
-    <a href="https://twitter.com/home" target="_blank" class="contact-details">
-      <img src="images/twitter.svg" alt="twitter logo" class="contact-icon">Twitter
-    </a>
-    <a href="https://www.linkedin.com/feed/" target="_blank" class="contact-details">
-      <img src="images/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
-    </a>
-    <a href="https://gihub.com/sfoteini" target="_blank" class="contact-details">
-      <img src="images/github.svg" alt="github logo" class="contact-icon">GitHub
-    </a>
-    <!-- <a id="profile-link" href="https://www.frecodecamp.org/clair_savvidou" target="_blank" class="contact-details">
-      <img src="images/freecodecamp.svg" alt="freeCodeCamp logo" class="contact-icon">freeCodeCamp
-    </a> -->
-    <!-- <a href="https://codepe.io/sfoteini" class="contact-details">
-      <img src="images/cdepen.svg" alt="CodePen logo" class="contact-icon">Codepen
-    </a> -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">our services</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">affiliate program</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">shipping</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">payment options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul>
+          <li><a href="#">watch</a></li>
+          <li><a href="#">bag</a></li>
+          <li><a href="#">shoes</a></li>
+          <li><a href="#">dress</a></li>
+        </ul>
+      </div>
+      <h2>Let's work together</h2>
+  
+      <div class="contact-links">
+        <a href="https://twitter.com/home" target="_blank" class="contact-details">
+          <img src="images/twitter.svg" alt="twitter logo" class="contact-icon">Twitter
+        </a>
+        <a href="https://www.linkedin.com/feed/" target="_blank" class="contact-details">
+          <img src="images/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
+        </a>
+        <a href="https://gihub.com/sfoteini" target="_blank" class="contact-details">
+          <img src="images/github.svg" alt="github logo" class="contact-icon">GitHub
+        </a>
+       
+      </div>
+      <p>
+        <span class="code">&lt;</span>
+        <span class="code">&#47;&gt;</span>
+        with
+        <span class="heart"></span>
+        by Akshit
+      </p>
+    </div>
   </div>
-</section>
-
-<footer>
-  <p>
-    <span class="code">&lt;</span>
-    <span class="code">&#47;&gt;</span>
-    with
-    <span class="heart"></span>
-    by Akshit
-  </p>
 </footer>
+
 
 </body>
 

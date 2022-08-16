@@ -66,7 +66,7 @@ img {
   top: 0;
   width: 100%;
   min-height: 75px;
-  background-color: #fff;
+  background-color: rgb(94, 94, 107);
   box-shadow: 0 1rem 1rem -1rem rgba(55, 56, 58, 0.2);
   z-index: 10;
 }
@@ -82,7 +82,7 @@ nav li {
 }
 
 nav .code {
-  color: white;
+  color: rgb(26, 23, 232);
   transition: color 0.3s ease-out;
 }
 
@@ -158,6 +158,9 @@ nav a:hover .code {
 
 #about h2 {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  background-color: #2ef5f8;
 }
 
 #about-container {
@@ -165,6 +168,7 @@ nav a:hover .code {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background: rgb(10, 235, 235);
 }
 
 @media (max-width: 850px) {
