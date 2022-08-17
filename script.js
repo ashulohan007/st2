@@ -9,7 +9,7 @@
 //     }    
 // }
 
-
+let store2 = document.getElementById("tables");
 function loadTable() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function () {
