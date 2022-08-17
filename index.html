@@ -7,7 +7,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A personal portfolio webpage created for the FreeCodeCamp's Responsive Web Design Certification.">
+  <script src="./script.js" defer></script>
   <title>Person managment system</title>
+  <!-- <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule=""
+  src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+></script> -->
 </head>
 
 <body>
@@ -92,19 +101,54 @@
   </div>
 </section>
 
-<section>
+<!-- <section>
   <div style="margin: auto;">
     <h3 style="margin-left:50px;">
       Click Below button
     </h3>
 
-    <button style="margin-top:14px;background-color:rgb(10, 235, 235);margin-left:50px;width:80px;height:50px;" id="click" class="click">Click Here</button>
   </div>
 
   <div id="display">
 
   </div>
 </section>
+  <section>
+  <div class="show-btn">
+            <button class="btn-og btn--full"  button style="margin-top:14px;background-color:rgb(10, 235, 235);margin-left:50px;width:80px;height:50px;" onclick="loadDoc()">
+              Click here
+            </button>
+          </div>
+        </div>
+
+        <div id="persons">
+
+        </div>
+      </div>
+    </section> -->
+
+    <section class="section-table" id="table">
+      <div class="container table">
+        <div class="table-header">
+          <h2 class="subheading center-text">Table Form</h2>
+
+          <p class="blog-subheading center-text">
+            Click below button to see the persons data in
+            <span>table form</span>
+          </p>
+
+          <div class="show-table-btn">
+            <button class="btn-og btn--full" button style="margin-top:14px;background-color:rgb(10, 235, 235);margin-left:50px;width:80px;height:50px;" onclick="loadTable()">
+              Tap here
+            </button>
+          </div>
+        </div>
+
+        <div id="details">
+          <table class="table-primary" id="tables"></table>
+        </div>
+      </div>
+    </section>
 
 <!-- <section id="projects">
   <h2>My Work:</h2>
